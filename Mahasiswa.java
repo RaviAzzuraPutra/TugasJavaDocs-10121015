@@ -29,6 +29,24 @@ public class Mahasiswa {
     }
 
     /**
+     * Mengembalikan nama mahasiswa.
+     *
+     * @return Nama mahasiswa.
+     */
+    public String getNama() {
+        return nama;
+    }
+
+    /**
+     * Mengembalikan NIM mahasiswa.
+     *
+     * @return NIM mahasiswa.
+     */
+    public String getNim() {
+        return nim;
+    }
+
+    /**
      * Menampilkan nama dan NIM mahasiswa.
      */
     public void tampilData() {
